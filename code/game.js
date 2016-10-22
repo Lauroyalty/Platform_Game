@@ -31,6 +31,8 @@ function Level(plan) {
         fieldType = "move";
 	   else if (ch == "@")
         fieldType = "player";
+	   else if (ch == "d")
+        fieldType = "danger";
 	//enter y
 	  if (ch == "y")
 		fieldType = "floater";
